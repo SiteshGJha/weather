@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { hot } from 'react-hot-loader/root'
 
-function App() {
-    return <h2>This is our React</h2>
+import SearchBar from "./containers/search_bar";
+import WeatherList from "./containers/weather_list";
+
+class App extends Component {
+    render() {
+        return(
+            <div>
+                <SearchBar />
+                <WeatherList />
+            </div>
+        )
+    }
 }
 
 export default hot(App);

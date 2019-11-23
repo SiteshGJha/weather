@@ -1,0 +1,3 @@
+export const ACTION_TYPE_LIST = {
+    FETCH_WEATHER : "FETCH_WEATHER"
+}
